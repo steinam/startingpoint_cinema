@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="15" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-10-17 19:00:29Z" end-time="2017-10-17 19:00:30Z" duration="1.098435">
-  <command-line><![CDATA[nunit3-console.exe  c:\schule\docbook\sj_2017\11Fi1_starting_point\Test_StartingPoint\bin\Debug\Test_startingPoint.dll]]></command-line>
-  <test-suite type="Assembly" id="0-1003" name="Test_startingPoint.dll" fullname="c:\schule\docbook\sj_2017\11Fi1_starting_point\Test_StartingPoint\bin\Debug\Test_startingPoint.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-10-17 19:00:30Z" end-time="2017-10-17 19:00:30Z" duration="0.100860" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="15">
-    <environment framework-version="3.8.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.15063.0" platform="Win32NT" cwd="c:\schule\docbook\sj_2017\11Fi1_starting_point\StartingPoint_2005_0\packages\NUnit.ConsoleRunner.3.7.0\tools" machine-name="DESKTOP-6HB3813" user="steinam" user-domain="DESKTOP-6HB3813" culture="de-DE" uiculture="de-DE" os-architecture="x64" />
-    <settings>
-      <setting name="DisposeRunners" value="True" />
-      <setting name="WorkDirectory" value="c:\schule\docbook\sj_2017\11Fi1_starting_point\StartingPoint_2005_0\packages\NUnit.ConsoleRunner.3.7.0\tools" />
-      <setting name="ImageRuntimeVersion" value="4.0.30319" />
-      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
-      <setting name="ImageRequiresX86" value="False" />
-      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
-      <setting name="NumberOfTestWorkers" value="4" />
-    </settings>
+<test-run id="2" testcasecount="0" result="Failed" label="Invalid" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-10-20 07:39:01Z" end-time="2017-10-20 07:39:02Z" duration="0.533267">
+  <command-line><![CDATA[nunit3-console.exe  C:\temp\tst\startingpoint_cinema\Test-Starting\bin\Debug\Test_Starting.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1" name="Test_Starting.dll" fullname="C:\temp\tst\startingpoint_cinema\Test-Starting\bin\Debug\Test_Starting.dll" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
     <properties>
-      <property name="_PID" value="7008" />
-      <property name="_APPDOMAIN" value="domain-" />
+      <property name="_SKIPREASON" value="File not found: C:\temp\tst\startingpoint_cinema\Test-Starting\bin\Debug\Test_Starting.dll" />
     </properties>
-    <test-suite type="TestSuite" id="0-1004" name="Test_StartingPoint" fullname="Test_StartingPoint" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-10-17 19:00:30Z" end-time="2017-10-17 19:00:30Z" duration="0.068903" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="15">
-      <test-suite type="TestFixture" id="0-1000" name="TestClass" fullname="Test_StartingPoint.TestClass" classname="Test_StartingPoint.TestClass" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-10-17 19:00:30Z" end-time="2017-10-17 19:00:30Z" duration="0.059267" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="15">
-        <test-case id="0-1002" name="TestCustomer" fullname="Test_StartingPoint.TestClass.TestCustomer" methodname="TestCustomer" classname="Test_StartingPoint.TestClass" runstate="Runnable" seed="2056232567" result="Passed" start-time="2017-10-17 19:00:30Z" end-time="2017-10-17 19:00:30Z" duration="0.035388" asserts="9" />
-        <test-case id="0-1001" name="TestMoviePriceCodes" fullname="Test_StartingPoint.TestClass.TestMoviePriceCodes" methodname="TestMoviePriceCodes" classname="Test_StartingPoint.TestClass" runstate="Runnable" seed="393429170" result="Passed" start-time="2017-10-17 19:00:30Z" end-time="2017-10-17 19:00:30Z" duration="0.009453" asserts="6" />
-      </test-suite>
-    </test-suite>
+    <reason>
+      <message>File not found: C:\temp\tst\startingpoint_cinema\Test-Starting\bin\Debug\Test_Starting.dll</message>
+    </reason>
   </test-suite>
 </test-run>
